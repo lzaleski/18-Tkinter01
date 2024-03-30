@@ -31,3 +31,71 @@ import tkinter as tk
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+form = tk.Tk()
+form.title("Form")
+
+name = tk.Label(
+    form,
+    text = "Name: ",
+    bg = "white",
+    fg = "black",
+    width = 8
+)
+name.pack()
+addressLine1 = tk.Label(
+    form,
+    text = "Address Line 1: ",
+    bg = "black",
+    fg = "white",
+    width = 17
+)
+addressLine1.pack()
+addressLine2 = tk.Label(
+    form,
+    text = "Address Line 2: ",
+    bg = "white",
+    fg = "black",
+    width = 17
+)
+addressLine2.pack()
+city = tk.Label(
+    form,
+    text = "City: ",
+    bg = "black",
+    fg = "white",
+    width = 6
+)
+city.pack()
+state = tk.Label(
+    form,
+    text = "State: ",
+    bg = "white",
+    fg = "black",
+    width = 7
+)
+state.pack()
+zipCode = tk.Label(
+    form,
+    text = "Zip Code: ",
+    bg = "black",
+    fg = "white",
+    width = 7
+)
+zipCode.pack()
+phoneNumber = tk.Label(
+    form,
+    text = "Phone Number: ",
+    bg = "white",
+    fg = "black",
+    width = 14
+)
+phoneNumber.pack()
+emailAddress = tk.Label(
+    form,
+    text = "Email Address: ",
+    bg = "black",
+    fg = "white",
+    width = 17
+)
+emailAddress.pack()
+form.mainloop()
